@@ -1,0 +1,8 @@
+src-git packages https://github.com/immortalwrt/packages.git^b78e97f10
+src-git luci https://github.com/immortalwrt/luci.git^9e617fef5
+src-git routing https://github.com/openwrt/routing.git^d8b4457
+src-git telephony https://github.com/openwrt/telephony.git^7f73a9a
+src-git bypass https://github.com/kiddin9/openwrt-bypass.git
+src-git amlogic https://github.com/ophub/luci-app-amlogic.git
+src-git edge https://github.com/kiddin9/luci-theme-edge.git
+src-git argon https://github.com/jerrykuku/luci-theme-argon.git
