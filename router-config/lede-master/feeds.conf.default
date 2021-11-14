@@ -2,8 +2,16 @@ src-git packages https://github.com/coolsnowwolf/packages
 src-git luci https://github.com/coolsnowwolf/luci
 src-git routing https://git.openwrt.org/feed/routing.git
 src-git telephony https://git.openwrt.org/feed/telephony.git
+src-git autocore https://github.com/izhamcaster/autocore-arm-x86.git
 src-git amlogic https://github.com/ophub/luci-app-amlogic.git
-src-git kenzo https://github.com/kenzok8/openwrt-packages
-src-git small https://github.com/kenzok8/small
+src-git passwall https://github.com/xiaorouji/openwrt-passwall.git
+src-git ssr https://github.com/fw876/helloworld.git
+src-git clash https://github.com/vernesong/OpenClash.git
 src-git bypass https://github.com/kiddin9/openwrt-bypass.git
 src-git libernet https://github.com/helmiau/helmiwrt-packages
+src-git edge https://github.com/kiddin9/luci-theme-edge.git
+src-git argon https://github.com/jerrykuku/luci-theme-argon.git
+src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
+src-git vssr https://github.com/jerrykuku/luci-app-vssr.git
+src-git maxmindbb https://github.com/jerrykuku/lua-maxminddb.git
+
