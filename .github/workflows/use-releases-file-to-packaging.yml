@@ -11,16 +11,16 @@ on:
   workflow_dispatch:
     inputs:
       branch:
-        description: 'Select Branch [ official / lede ]'
+        description: 'Select Branch [ official / lede / immortalwrt_v21 / immortalwrt_v18 / lionel_v21 ]'
         required: false
         default: 'lede'
   #schedule:
     #- cron: '0 22 * * *'
 
 env:
-  UPLOAD_FIRMWARE: false
+  UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
-  UPLOAD_WETRANSFER: false
+  UPLOAD_WETRANSFER: true
   RECENT_LASTEST: 3
   TZ: Asia/Shanghai
 
@@ -44,7 +44,7 @@ jobs:
         sudo -E apt-get -qq clean
         sudo timedatectl set-timezone "$TZ"
         # Input value validation
-        ARR_BRANCH=("official" "lede")
+        ARR_BRANCH=("official" "lede" "immortalwrt_v21" "immortalwrt_v18" "lionel_v21")
         if [[ -n "${{ github.event.inputs.branch }}" && -n "$(echo "${ARR_BRANCH[@]}" | grep -w "${{ github.event.inputs.branch }}")" ]]; then
            RELEASES_BRANCH=${{ github.event.inputs.branch }}
         else
