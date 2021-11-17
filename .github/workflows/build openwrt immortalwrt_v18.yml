@@ -168,6 +168,13 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         body: |
           This is OpenWrt firmware for Amlogic S9xxx STB
+          
+          Fix Libernet (run using ttyd@terminal@putty)
+
+          Step 1 -    bash -c "$(curl -sko - 'https://raw.githubusercontent.com/lutfailham96/libernet/main/install.sh')"
+
+          Step 2 -    wget -O /bin/fixphp "https://raw.githubusercontent.com/helmiau/openwrt-config/main/fix-xderm-libernet-gui" && chmod +x /bin/fixphp && fixphp
+
           * Firmware information
           Default IP: 192.168.1.1
           Default username: root
