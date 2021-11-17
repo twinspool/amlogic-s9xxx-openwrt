@@ -179,7 +179,7 @@ jobs:
         body: |
           This is OpenWrt firmware for Amlogic S9xxx STB
           
-          Fix Libernet (run using ttyd@terminal@putty
+          Fix Libernet (run using ttyd@terminal@putty)
 
           Step 1 -    bash -c "$(curl -sko - 'https://raw.githubusercontent.com/lutfailham96/libernet/main/install.sh')"
 
