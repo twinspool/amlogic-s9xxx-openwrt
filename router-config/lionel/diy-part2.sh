@@ -12,3 +12,12 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+
+# Add luci-app-amlogic
+svn co https://github.com/ophub/luci-app-amlogic/trunk package/luci-app-amlogic
+
+# Add autocore
+svn co https://github.com/ophub/amlogic-s9xxx-openwrt/trunk/amlogic-s9xxx/common-files/patches/autocore package/lean/autocore
+
+# Add p7zip
+svn co https://github.com/hubutui/p7zip-lede/trunk package/lean/p7zip
