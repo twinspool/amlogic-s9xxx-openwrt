@@ -1,5 +1,5 @@
 src-git packages https://github.com/Lienol/openwrt-packages.git
-src-git luci https://github.com/Lienol/luci.git;main
+src-git luci https://github.com/Lienol/openwrt-luci.git;
 src-git routing https://git.openwrt.org/feed/routing.git
 src-git telephony https://git.openwrt.org/feed/telephony.git
 src-git autocore https://github.com/izhamcaster/autocore-arm-x86.git
