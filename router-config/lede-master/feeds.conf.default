@@ -12,3 +12,4 @@ src-git bypass https://github.com/kiddin9/openwrt-bypass.git
 src-git libernet https://github.com/helmiau/helmiwrt-packages
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 src-git small https://github.com/kenzok8/small
+src-git php7 https://github.com/kea/openwrt-php7-package.git
